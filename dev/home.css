@@ -1,0 +1,229 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: default;
+    overflow: hidden;
+}
+body *{
+    box-sizing: border-box;
+}
+
+#Wallpaper{
+    position: absolute;
+    z-index: 0;    
+    width: 100%;
+    height: 100%;
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(https://i.pinimg.com/564x/ad/fd/44/adfd4406fd74dfcb418e1608f1812b38.jpg);   */
+}
+
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+#Filter{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 1;
+    opacity: 16.67%;
+}
+
+#Main{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+
+#Main>div{
+    float: left;
+}
+
+#Menu,#Info,#Avatar{
+    display: flex;
+}
+#box_menu, #box_info,#box_avatar{
+   margin: auto auto auto 0px;    
+}
+
+
+#Menu{
+    width: 16.67%;
+    height: 100%;
+    position: relative;
+}
+
+#Menu #box_menu{
+    border-left: 8.335px solid #ED8390;  
+    width: 50%;
+    display: flex;
+}
+
+#Menu ul{
+    margin: auto;
+    padding: 0px;
+}
+
+#Menu li{
+    list-style: none;
+}
+
+#Menu li img{
+    width: 50%;   
+}
+
+#Menu #to_BF img{
+    margin: 8.335% auto 33.33% 16.67%;
+}
+
+#Menu #view_about img{
+    margin: 0px auto 8.335% 16.67%;
+}
+
+
+
+#Info{
+    width: 33.33%;
+    height: 100%;
+}
+
+#Info #nick_name{
+    font-size: 1.5em;
+    margin: 0px;
+}
+
+#Info h1{
+    font-size: 3.25em;
+    margin: 16.67px 0px 0px 0px;
+}
+
+#Info #text{
+    font-size: 2em;
+    margin: 16.67% 0px 16.67% 0px;
+}
+
+#Info #button{
+    float: left;
+    width: 100%;
+    display: flex;
+}
+
+#Info #button_to_facebook{
+    border: 2px solid black;
+    border-radius: 50px;
+    display: flex;
+    width: fit-content;
+    padding: 3px;  
+    height: fit-content;
+}
+
+#Info #button_to_facebook img:nth-child(1){
+    width: 60px;
+    height: 60px;
+}
+
+#Info #button_to_facebook p{
+    margin: auto;
+    font-size: 1.5em;
+    padding: 0px 16.67px 0px 5.556px;
+}
+#Info #button_to_facebook img:nth-child(3){
+    width: 16.67px;
+    height: 16.67px;
+    margin: auto 8.335px auto 0px;
+    display: none;
+}
+
+
+
+#Info #button_control_music{
+    border: 2px solid black;
+    border-radius: 50px;
+    display: flex;
+    height: 100%;
+    padding: 16.67px;
+    margin-left: 8.335%;
+    width: fit-content;
+}
+
+#Info #button_control_music img{
+    width: 33.33px;
+    height: 33.33px;
+}
+#Info #button_control_music p{
+    margin: auto 16.67px auto 3px;
+    font-size: 1.5em;
+    display: none;
+    color: black !important;
+}
+
+
+#Avatar{
+    width: 50%;
+    height: 100%;
+    padding-left: 8.335%;
+}
+
+#Avatar #box_avatar{
+    width: 100%;
+
+}
+
+#Avatar #box_avatar img{
+    width: 83.33%;
+    border-radius: 16.67px;
+}
+
+
+#Avatar #mark {
+    position: absolute;
+    width: 13.89vh;    
+    right: 4.1675vh;
+    top: 0px;
+    z-index: 5;
+}
+#Avatar #mark div:nth-child(1){
+    width: 100%;
+    height: 20vh;
+    background-color: #ED8390;
+    display: flex;
+}
+#Avatar #mark div:nth-child(2){
+    width: 0;
+    height: 0;
+    border-left: 6.945vh solid transparent;
+    border-right: 6.945vh solid transparent;
+    border-top: 5.556vh solid #ED8390;
+}
+
+#Avatar #mark img{
+    width: 66.67%;
+    margin: auto;
+    padding-top: 16.67%;
+}
+
+
+#clock{
+    position: absolute;
+    bottom: 16.67px;
+    right: 16.67px;
+    display: none;
+}
+
+#clock div{
+    float: left;
+    font-size:33.33px;
+    margin-right: 3px;
+}
+
+
+
+
+
